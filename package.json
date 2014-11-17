@@ -1,0 +1,17 @@
+{
+  "name": "node-session-tokens",
+  "version": "0.1.0",
+  "description": "Simple session based token authorization hooks.",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dsandor/node-session-tokens"
+  },
+  "author": "David Sandor <david.sandor@gmail.com> (http://buildsucceeded.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dsandor/node-session-tokens/issues"
+  },
+  "directories":{"lib":"./lib"},
+  "dependencies":{"fs": "0.10.33", "node-uuid": "1.4.1"}
+}
