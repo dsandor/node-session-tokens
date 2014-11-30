@@ -19,15 +19,21 @@ describe('test the session-tokens functions', function() {
 
     it('should get a session token', function (done) {
         sessionTokens.createSession(function (response) {
+            console.log('(1) response: %j', response);
             expect(response).not.toBe(null);
             expect(response.sessionToken).not.toBe(null);
 
             sessionResponse = response;
+            console.log('(1) sessionResponse: %j', sessionResponse);
+
+
         });
         done();
     });
 
     it('should validate ok with a good session token', function(done) {
+        console.log('(2) sessionResponse: %j', sessionResponse);
+
         sessionTokens.validateSession(sessionResponse.sessionToken, sessionResponse.nonce,
         function(response) {
             expect(response).not.toBe(null);
