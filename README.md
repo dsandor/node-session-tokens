@@ -128,4 +128,8 @@ The error callback will be called if there is a system level error in processing
 
 - could not read or write to the persisted storage
 
-
+##Running the unit tests
+The unit tests use the jasmine-node format.
+-To execute them you need to install jasmine: 'npm install jasmine-node'
+-Change into the root project folder "node-session-tokens"
+-Execute the unit tests: 'jasmine-node spec'

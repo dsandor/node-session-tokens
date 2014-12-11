@@ -1,15 +1,5 @@
 /**
  * Created by dsandor on 11/22/14.
-
- var request = require('request');
-
- it("should respond with hello world", function(done) {
-  request("http://localhost:3000/hello", function(error, response, body){
-    expect(body).toEqual("hello world");
-    done();
-  });
-});
-
  */
 
 var sessionTokens = require('../lib/index.js')();
