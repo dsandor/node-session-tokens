@@ -58,9 +58,9 @@ Subsequent requests can be validated by calling *validateSession*.
 
 	auth.validateSession(sessionTokenFromRequest, nonceFromRequest,
 	function(response) {
-		console.log('sessionToken: %s', response.sessionToken);
-		console.log('sessionToken: %s', response.nonce);
-		console.log('sessionToken: %s', response.expirationDateTime);
+		console.log('sessionToken      : %s', response.sessionToken);
+		console.log('nonce             : %s', response.nonce);
+		console.log('expirationDateTime: %s', response.expirationDateTime);
 	},
 	function(error) {
 		console.log('error message: %s', error.message);
