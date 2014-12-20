@@ -26,9 +26,9 @@ Create a session token with *createSession*.
 	var auth = require('tokens')();
 
 	auth.createSession(function (response) {
-		console.log('sessionToken: %s', response.sessionToken);
-		console.log('sessionToken: %s', response.nonce);
-		console.log('sessionToken: %s', response.expirationDateTime);
+		console.log('sessionToken      : %s', response.sessionToken);
+		console.log('nonce             : %s', response.nonce);
+		console.log('expirationDateTime: %s', response.expirationDateTime);
 	},
 	function(error) {
 		console.log('error message: %s', error.message);
