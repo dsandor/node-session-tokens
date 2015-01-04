@@ -1,6 +1,6 @@
 {
   "name": "node-session-tokens",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Simple session based token authorization hooks.",
   "main": "lib/index.js",
   "repository": {
