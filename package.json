@@ -1,6 +1,6 @@
 {
   "name": "node-session-tokens",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Simple session based token authorization hooks.",
   "main": "lib/index.js",
   "repository": {
@@ -13,5 +13,5 @@
     "url": "https://github.com/dsandor/node-session-tokens/issues"
   },
   "directories":{"lib":"./lib"},
-  "dependencies":{"fs": "0.0.2", "node-uuid": "1.4.1", "winston": "0.8.3"}
+  "dependencies":{ "node-uuid": "latest", "winston": "latest"}
 }
