@@ -1,3 +1,5 @@
+>> When I wrote this I did not know about [http://passportjs.org/](http://passportjs.org/). You are better off using that as it is highly extensible.  I will leave this code up for my own reference. <<
+
 #Tokens for NodeJS
 
 ##Purpose
